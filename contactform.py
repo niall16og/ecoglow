@@ -1,0 +1,6 @@
+file1 = open("names.csv","w")
+file2 = open("emails.csv","w")
+file1.write(name+",")
+file2.write(email+",")
+file1.close()
+file2.close()
